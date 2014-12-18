@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+
+<title>MPATE-GE 2618 Final Project</title>
+
+<link href="mfbasic.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="top"></div>
+<div id="container">
+<div id="content">
+
+<!--Do not edit anything above this-->
+
+<h1>Super SchroederVerb: An FMOD Plugin</h1>
+<h2>by Alex Graham</h2>
+
+
+<p>Super Schroeder Reverb is a plugin for FMOD that implements a reverberation unit as designed by Schroeder. The current implementation uses 4 Comb Filters operating in parallel that feed into two allpass filters which operate sequentially. The comb filters have a lowpass filter which operates on the feedback. There are also two echoes, an early and a late.</p>
+
+<p>The parameters that can be manipulated in real time are as follows:
+<ul>
+   <li> Wet Percentage (%) - controls how much of the reverberated signal is heard in relation to the wet signal. This does not affect the echoes.
+   <li> LPF Frequency (hZ) - controls the cutoff frequency of the lowpass filters operating on the comb filters.
+   <li> Reverb Time (seconds) - controls how long the tail of the reverb lasts.
+   <li> Early Time (milliseconds) - the delay time for the early reflection echo.
+   <li> Early Amp (f) - controls the amplitude (as a scaling factor) of the early reflection echo.
+   <li> Late Time (milliseconds) - the delay time for the late reflection echo.
+   <li> Late Amp (f) - controls the amplitude (as a scaling factor) of the late reflection echo.
+</ul>
+
+<p><b>Note:</b> As this is an FMOD Studio plugin (which is Mac and Windows) there is no point to compiling for Linux. The project is set up to be compiled for Macintosh in Xcode (the example plugins that came with the API were setup in dev environments to ensure the correct linking and compiler setup), but the code could be adapted to a Visual Studio project to compile for Windows.
+<p>How to compile and install (Mac):
+<ol>
+   <li>Open fmod_schroeder.xcodeproj (in the root folder) in Xcode (known to work in 6.1.1)
+   <li>Make sure the "32 bit" build scheme is selected
+   <li>Click Product -> Build from the menu bar
+   <li>Install FMOD Studio if necessary (<a href="www.fmod.org/download">Download here</a>)
+   <li>Note the plug-ins folder in FMOD's settings under the Plug-ins tab (IE, ~/FMODPlugins)
+   <li>Copy fmod_schroeder.dylib from fmod_schroeder/_builds/Release to the FMOD Plugin folder
+</ol>
+
+<p>To use in FMOD
+<ol>
+	<li>Open FMOD (The next steps can be skipped if using the example project which alrady has the plugin set up. To view the plugin and change parameters, click on the track)
+	<li>Create a new Event in the events list on the left
+	<li>Click the event
+	<li>Right click within the space in the editor and create a new track
+	<li>Click the track
+	<li>In the module section at the bottom, click the "+" icon to the right of the volume control
+	<li>Click the plugin under Add Effect -> Plug-in Effects
+</ol>
+
+<p>Enjoy some old school reverb!
+<!--Don't edit anything below here-->
+</div>
+<div id="footer">MPATE-GE 2618 C Programming for Music Technology Final Project</div>
+
+</div>
+</body>
+</html>

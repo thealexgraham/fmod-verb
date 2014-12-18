@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0114C5CB1A42A03300F8DE42 /* remarks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0114C5CA1A42A03300F8DE42 /* remarks.txt */; };
+		01A6DB321A3E6E2C00C5C1BA /* DelayLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DB301A3E6E2C00C5C1BA /* DelayLine.cpp */; };
+		01AD11701A4222D00080E8CB /* AllpassFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD11671A4222D00080E8CB /* AllpassFilter.cpp */; };
+		01AD11711A4222D00080E8CB /* CombFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD11691A4222D00080E8CB /* CombFilter.cpp */; };
+		01AD11731A4222D00080E8CB /* LowpassFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD116C1A4222D00080E8CB /* LowpassFilter.cpp */; };
+		01AD11741A4222D00080E8CB /* MultiTapDelay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD116E1A4222D00080E8CB /* MultiTapDelay.cpp */; };
+		01AD11751A4239460080E8CB /* fmod_schroeder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01EFE6711A37B4A100E86196 /* fmod_schroeder.cpp */; };
+		AFA41FB71654A10E005DF8E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA41FB61654A10E005DF8E4 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF77A847165B0DC4004D5BC2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0114C5CA1A42A03300F8DE42 /* remarks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = remarks.txt; sourceTree = "<group>"; };
+		01A6DB2F1A3E6D8500C5C1BA /* design.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = design.txt; sourceTree = "<group>"; };
+		01A6DB301A3E6E2C00C5C1BA /* DelayLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DelayLine.cpp; path = src/DelayLine.cpp; sourceTree = "<group>"; };
+		01A6DB311A3E6E2C00C5C1BA /* DelayLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayLine.h; path = src/DelayLine.h; sourceTree = "<group>"; };
+		01AD11671A4222D00080E8CB /* AllpassFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AllpassFilter.cpp; path = src/AllpassFilter.cpp; sourceTree = "<group>"; };
+		01AD11681A4222D00080E8CB /* AllpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllpassFilter.h; path = src/AllpassFilter.h; sourceTree = "<group>"; };
+		01AD11691A4222D00080E8CB /* CombFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CombFilter.cpp; path = src/CombFilter.cpp; sourceTree = "<group>"; };
+		01AD116A1A4222D00080E8CB /* CombFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CombFilter.h; path = src/CombFilter.h; sourceTree = "<group>"; };
+		01AD116C1A4222D00080E8CB /* LowpassFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LowpassFilter.cpp; path = src/LowpassFilter.cpp; sourceTree = "<group>"; };
+		01AD116D1A4222D00080E8CB /* LowpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LowpassFilter.h; path = src/LowpassFilter.h; sourceTree = "<group>"; };
+		01AD116E1A4222D00080E8CB /* MultiTapDelay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiTapDelay.cpp; path = src/MultiTapDelay.cpp; sourceTree = "<group>"; };
+		01AD116F1A4222D00080E8CB /* MultiTapDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiTapDelay.h; path = src/MultiTapDelay.h; sourceTree = "<group>"; };
+		01EFE6711A37B4A100E86196 /* fmod_schroeder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fmod_schroeder.cpp; path = src/fmod_schroeder.cpp; sourceTree = "<group>"; };
+		AFA41FB61654A10E005DF8E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AFFF96911630FB6A00804536 /* fmod_schroeder.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = fmod_schroeder.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFF968E1630FB6A00804536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA41FB71654A10E005DF8E4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFFF96861630FB6A00804536 = {
+			isa = PBXGroup;
+			children = (
+				AFFF96C3746D33BF00804536 /* Sources */,
+				AFFF96BD163103C400804536 /* Libraries */,
+				AFFF96921630FB6A00804536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFF96921630FB6A00804536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF96911630FB6A00804536 /* fmod_schroeder.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFF96BD163103C400804536 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AFA41FB61654A10E005DF8E4 /* Cocoa.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		AFFF96C3746D33BF00804536 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				01EFE6711A37B4A100E86196 /* fmod_schroeder.cpp */,
+				01A6DB2F1A3E6D8500C5C1BA /* design.txt */,
+				0114C5CA1A42A03300F8DE42 /* remarks.txt */,
+				01A6DB311A3E6E2C00C5C1BA /* DelayLine.h */,
+				01A6DB301A3E6E2C00C5C1BA /* DelayLine.cpp */,
+				01AD11681A4222D00080E8CB /* AllpassFilter.h */,
+				01AD11671A4222D00080E8CB /* AllpassFilter.cpp */,
+				01AD116A1A4222D00080E8CB /* CombFilter.h */,
+				01AD11691A4222D00080E8CB /* CombFilter.cpp */,
+				01AD116D1A4222D00080E8CB /* LowpassFilter.h */,
+				01AD116C1A4222D00080E8CB /* LowpassFilter.cpp */,
+				01AD116F1A4222D00080E8CB /* MultiTapDelay.h */,
+				01AD116E1A4222D00080E8CB /* MultiTapDelay.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFF96901630FB6A00804536 /* fmod_schroeder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF969B1630FB6A00804536 /* Build configuration list for PBXNativeTarget "fmod_schroeder" */;
+			buildPhases = (
+				AFFF968D1630FB6A00804536 /* Sources */,
+				AFFF968E1630FB6A00804536 /* Frameworks */,
+				AF77A847165B0DC4004D5BC2 /* CopyFiles */,
+				AFC16064167078A400003773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fmod_schroeder;
+			productName = fmod_gain;
+			productReference = AFFF96911630FB6A00804536 /* fmod_schroeder.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFF96881630FB6A00804536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Firelight Technologies";
+			};
+			buildConfigurationList = AFFF968B1630FB6A00804536 /* Build configuration list for PBXProject "fmod_schroeder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFFF96861630FB6A00804536;
+			productRefGroup = AFFF96921630FB6A00804536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFF96901630FB6A00804536 /* fmod_schroeder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC16064167078A400003773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0114C5CB1A42A03300F8DE42 /* remarks.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFF968D1630FB6A00804536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AD11751A4239460080E8CB /* fmod_schroeder.cpp in Sources */,
+				01A6DB321A3E6E2C00C5C1BA /* DelayLine.cpp in Sources */,
+				01AD11741A4222D00080E8CB /* MultiTapDelay.cpp in Sources */,
+				01AD11711A4222D00080E8CB /* CombFilter.cpp in Sources */,
+				01AD11701A4222D00080E8CB /* AllpassFilter.cpp in Sources */,
+				01AD11731A4222D00080E8CB /* LowpassFilter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AFFF96991630FB6A00804536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = ../../../lowlevel/inc;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = $PROJECT_NAME;
+				SDKROOT = macosx;
+				STRIPFLAGS = "-x -r";
+				SYMROOT = _builds;
+			};
+			name = Debug;
+		};
+		AFFF969A1630FB6A00804536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_ENABLE_CPP_RTTI = NO;
+				HEADER_SEARCH_PATHS = ../../../lowlevel/inc;
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = $PROJECT_NAME;
+				SDKROOT = macosx;
+				STRIPFLAGS = "-x -r";
+				SYMROOT = _builds;
+			};
+			name = Release;
+		};
+		AFFF969C1630FB6A00804536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = inc;
+				PRODUCT_NAME = fmod_schroeder;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		AFFF969D1630FB6A00804536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = inc;
+				PRODUCT_NAME = fmod_schroeder;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFF968B1630FB6A00804536 /* Build configuration list for PBXProject "fmod_schroeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF96991630FB6A00804536 /* Debug */,
+				AFFF969A1630FB6A00804536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF969B1630FB6A00804536 /* Build configuration list for PBXNativeTarget "fmod_schroeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF969C1630FB6A00804536 /* Debug */,
+				AFFF969D1630FB6A00804536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFFF96881630FB6A00804536 /* Project object */;
+}
