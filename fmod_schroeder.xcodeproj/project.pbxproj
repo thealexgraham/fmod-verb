@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0114C5CB1A42A03300F8DE42 /* remarks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0114C5CA1A42A03300F8DE42 /* remarks.txt */; };
 		01A6DB321A3E6E2C00C5C1BA /* DelayLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DB301A3E6E2C00C5C1BA /* DelayLine.cpp */; };
 		01AD11701A4222D00080E8CB /* AllpassFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD11671A4222D00080E8CB /* AllpassFilter.cpp */; };
 		01AD11711A4222D00080E8CB /* CombFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01AD11691A4222D00080E8CB /* CombFilter.cpp */; };
@@ -30,8 +29,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0114C5CA1A42A03300F8DE42 /* remarks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = remarks.txt; sourceTree = "<group>"; };
-		01A6DB2F1A3E6D8500C5C1BA /* design.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = design.txt; sourceTree = "<group>"; };
 		01A6DB301A3E6E2C00C5C1BA /* DelayLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DelayLine.cpp; path = src/DelayLine.cpp; sourceTree = "<group>"; };
 		01A6DB311A3E6E2C00C5C1BA /* DelayLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayLine.h; path = src/DelayLine.h; sourceTree = "<group>"; };
 		01AD11671A4222D00080E8CB /* AllpassFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AllpassFilter.cpp; path = src/AllpassFilter.cpp; sourceTree = "<group>"; };
@@ -88,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				01EFE6711A37B4A100E86196 /* fmod_schroeder.cpp */,
-				01A6DB2F1A3E6D8500C5C1BA /* design.txt */,
-				0114C5CA1A42A03300F8DE42 /* remarks.txt */,
 				01A6DB311A3E6E2C00C5C1BA /* DelayLine.h */,
 				01A6DB301A3E6E2C00C5C1BA /* DelayLine.cpp */,
 				01AD11681A4222D00080E8CB /* AllpassFilter.h */,
@@ -156,7 +151,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0114C5CB1A42A03300F8DE42 /* remarks.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
