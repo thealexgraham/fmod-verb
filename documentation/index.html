@@ -18,12 +18,13 @@
 <h1>Super SchroederVerb: An FMOD Plugin</h1>
 <h2>by Alex Graham</h2>
 
+<a href = "https://github.com/thealexgraham/fmod-schroederverb">Source on GitHub</a>
 
 <p>Super Schroeder Reverb is a plugin for FMOD that implements a reverberation unit as designed by Schroeder. The current implementation uses 4 Comb Filters operating in parallel that feed into two allpass filters which operate sequentially. The comb filters have a lowpass filter which operates on the feedback. There are also two echoes, an early and a late.</p>
 
 <p>The parameters that can be manipulated in real time are as follows:
 <ul>
-   <li> Wet Percentage (%) - controls how much of the reverberated signal is heard in relation to the wet signal. This does not affect the echoes.
+   <li> Wet Percentage (%) - controls how much of the reverberated signal is heard in relation to the wet signal.
    <li> LPF Frequency (hZ) - controls the cutoff frequency of the lowpass filters operating on the comb filters.
    <li> Reverb Time (seconds) - controls how long the tail of the reverb lasts.
    <li> Early Time (milliseconds) - the delay time for the early reflection echo.
